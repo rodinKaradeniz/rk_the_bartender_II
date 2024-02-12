@@ -3,7 +3,7 @@ from rk_the_bartender.components.data_validation import DataValidation
 from rk_the_bartender import logger
 
 
-STAGE_NAME = "Data Validation Stage"
+STAGE_NAME = "Data Validation"
 
 
 class DataValidationTrainingPipeline:

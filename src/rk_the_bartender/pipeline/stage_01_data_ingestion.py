@@ -3,7 +3,7 @@ from rk_the_bartender.components.data_ingestion import DataIngestion
 from rk_the_bartender import logger
 
 
-STAGE_NAME = "Data Ingestion Stage"
+STAGE_NAME = "Data Ingestion"
 
 class DataIngestionTrainingPipeline:
     def __init__(self):
