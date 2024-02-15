@@ -1,3 +1,5 @@
+# Main module that runs the pipelines one by one.
+
 from rk_the_bartender import logger
 from rk_the_bartender.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from rk_the_bartender.pipeline.stage_02_data_validation import DataValidationTrainingPipeline

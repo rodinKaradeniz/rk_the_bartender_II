@@ -27,11 +27,11 @@ https://github.com/rodinKaradeniz/rk_the_bartender_II
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n mlproj python=3.8 -y
+conda create -n rk_the_bartender_mlops python=3.8 -y
 ```
 
 ```bash
-conda activate mlproj
+conda activate rk_the_bartender_mlops
 ```
 
 ### STEP 02- install the requirements
@@ -113,13 +113,13 @@ export MLFLOW_TRACKING_PASSWORD=853a0ce7db49d48ed5c58be6eadcdb9e95d29081
 
 ## 3. Create ECR repo to store/save docker image
 
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+    - Save the URI: 381492003052.dkr.ecr.us-east-2.amazonaws.com/rk_the_bartender_mlops
 
 ## 4. Create EC2 machine (Ubuntu)
 
 ## 5. Open EC2 and Install docker in EC2 Machine:
 
-    #optinal
+    #optional
 
     sudo apt-get update -y
 
