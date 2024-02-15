@@ -145,7 +145,7 @@ export MLFLOW_TRACKING_PASSWORD=853a0ce7db49d48ed5c58be6eadcdb9e95d29081
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = us-east-1
+    AWS_REGION = us-east-2
 
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
